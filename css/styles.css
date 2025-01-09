@@ -88,19 +88,79 @@ nav a:hover {
     border-bottom: none;
 }
 
+.info-text {
+    margin-left: 40px;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+}
+
 .gif-container img {
     max-width: 100%;
     height: auto;
     margin: 10px 0;
 }
 
-.gif-container .gif-caption {
-    font-size: 1.1em;
+.text-placement {
+    margin-left: 40px;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.gif-container ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.gif-container ul li {
+    margin-bottom: 5px;
+}
+
+.gif-container .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature-list {
+    border: 2px solid #00ff00;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.feature-list h3 {
+    text-align: center;
     margin-bottom: 15px;
 }
 
-.gif-container .gif-item {
-    margin-bottom: 20px;
+.feature-item {
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    background-color: #111111;
+    padding: 15px;
+    margin: 10px auto;
+    color: #00ff00;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.feature-item:hover {
+    background-color: #00ff00;
+    color: #000;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Needed to disable button underline. I think I'll might regret that in the future... */
+a {
+    text-decoration: none;
+}
+
+.feature-item a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .social-icons h2 {
